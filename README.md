@@ -100,8 +100,14 @@ struct ContentView: View {
     ContentView()
 }
 
-
 ```
+## Screenshots 
+
+|      both        |          iconOnly          |               textOnly             |
+| ---------------- | -------------------------- | ---------------------------------- |
+| ![Simulator Screenshot - iPhone 15 Pro - 2024-07-02 at 13 46 33](https://github.com/TusharSanchaniya-mi/MIFloatingButton/assets/82019401/e371dd98-8162-4cac-bc31-921b429f04cd) | ![Simulator Screenshot - iPhone 15 Pro - 2024-07-02 at 13 47 01](https://github.com/TusharSanchaniya-mi/MIFloatingButton/assets/82019401/d2f49549-3241-44af-9592-ced667ff255f) | ![Simulator Screenshot - iPhone 15 Pro - 2024-07-02 at 13 47 17](https://github.com/TusharSanchaniya-mi/MIFloatingButton/assets/82019401/bf6fe79e-a391-4a96-9757-bec540108c9a) |
+
+
 
 ## 🙋 Author
 
