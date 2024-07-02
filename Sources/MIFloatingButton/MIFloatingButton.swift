@@ -12,20 +12,6 @@ public struct MIFloatingButton<Content: View>: View {
     
     @State private var menuOpacity: CGFloat = 0
     
-    private init(
-        arrFloatingItem: Binding<[FloatingItem]>,
-        menuOpacity: CGFloat,
-        config: FloatingItemConfiguration,
-        buttonActionClauser: ( (FloatingItem) -> Void)? = nil,
-        @ViewBuilder childView: () -> Content
-    ) {
-        self._arrFloatingItem = arrFloatingItem
-        self.menuOpacity = menuOpacity
-        self.config = config
-        self.buttonActionClauser = buttonActionClauser
-        self.childView = childView()
-    }
-    
     private func menuAction(isForceClose: Bool = false) {
         
         if isForceClose {
@@ -181,7 +167,7 @@ public struct MIFloatingButton<Content: View>: View {
 
 
 extension MIFloatingButton {
-    init(arrFloatingItem: Binding<[FloatingItem]>,
+   public init(arrFloatingItem: Binding<[FloatingItem]>,
          config: FloatingItemConfiguration = FloatingItemConfiguration.defaultConfig(),
          buttonActionClauser: ((FloatingItem) -> Void)? = nil,
          @ViewBuilder childView: () -> Content) {

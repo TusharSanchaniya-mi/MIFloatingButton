@@ -4,6 +4,12 @@ public struct FloatingItem: Identifiable {
     public var id = UUID()
     public var title: String?
     public var iconName: String?
+    
+    public init(id: UUID = UUID(), title: String? = nil, iconName: String? = nil) {
+        self.id = id
+        self.title = title
+        self.iconName = iconName
+    }
 }
 
 public enum MenuDisplayPreference {
