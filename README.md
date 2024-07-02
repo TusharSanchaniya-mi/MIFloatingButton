@@ -40,9 +40,9 @@ pod 'MIFloatingButton'
 
 MIFloatingButton provides list of action buttons to perform with an attractive UI design, there are 3 types of design to show FloatingButton over the screen.
 
-- both : indicates button with UI and text title. (Default)
-- iconOnly : indicates button with icons only.
-- textOnly : indicates button with text only.
+- ```both``` : indicates button with UI and text title. (Default)
+- ```iconOnly``` : indicates button with icons only.
+- ```textOnly``` : indicates button with text only.
 
 ## Example
 
