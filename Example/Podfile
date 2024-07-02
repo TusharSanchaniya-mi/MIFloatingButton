@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MIFloatingButton_Tests' do
+  pod 'MIFloatingButton', :path => '../'
+  
+  
+end
