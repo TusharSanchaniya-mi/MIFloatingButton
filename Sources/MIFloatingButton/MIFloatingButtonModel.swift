@@ -60,7 +60,4 @@ public struct FloatingItemConfiguration {
         self.textColor = textColor
     }
     
-    static func defaultConfig() -> FloatingItemConfiguration {
-        return FloatingItemConfiguration()
-    }
 }

@@ -168,7 +168,7 @@ public struct MIFloatingButton<Content: View>: View {
 
 extension MIFloatingButton {
    public init(arrFloatingItem: Binding<[FloatingItem]>,
-         config: FloatingItemConfiguration = FloatingItemConfiguration.defaultConfig(),
+         config: FloatingItemConfiguration = FloatingItemConfiguration(),
          buttonActionClauser: ((FloatingItem) -> Void)? = nil,
          @ViewBuilder childView: () -> Content) {
         self._arrFloatingItem = arrFloatingItem
