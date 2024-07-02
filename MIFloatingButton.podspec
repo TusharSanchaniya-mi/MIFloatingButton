@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://github.com/TusharSanchaniya-mi'
   s.readme           = 'https://github.com/TusharSanchaniya-mi/MIFloatingButton/blob/main/README.md'
   s.ios.deployment_target = '15.0'
-  s.swift_version = '5.4'
+  s.swift_version = '5.10'
   s.source_files = 'MIFloatingButton/Classes/**/*', 'MIFloatingButton/README.md'
 end
