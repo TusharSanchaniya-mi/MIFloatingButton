@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MIFloatingButton'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Easily customizable floating button menu created with SwiftUI. with smooth animation and attractive layout design style.'
 
   s.description      = <<-DESC
@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://github.com/TusharSanchaniya-mi'
   s.readme           = 'https://github.com/TusharSanchaniya-mi/MIFloatingButton/blob/main/README.md'
   s.ios.deployment_target = '15.0'
-  s.swift_version = '5.0'
+  s.swift_version = '5.4'
   s.source_files = 'MIFloatingButton/Classes/**/*', 'MIFloatingButton/README.md'
 end
