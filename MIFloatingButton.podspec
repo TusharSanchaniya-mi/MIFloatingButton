@@ -1,14 +1,15 @@
 Pod::Spec.new do |s|
   s.name             = 'MIFloatingButton'
   s.version          = '1.0.0'
-  s.summary          = 'Floating Button is a UI element that use to a button that triggers the primary action for a particular screen.'
+  s.summary          = 'Easily customizable floating button menu created with SwiftUI. with smooth animation and attractive layout design style.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                      Easily customize your SwiftUI app with MIFloatingButton, 
+                      a sleek floating button menu featuring smooth animations and 
+                      an attractive layout design, perfect for enhancing user interaction and accessibility.
                        DESC
 
   s.homepage         = 'https://github.com/TusharSanchaniya-mi/MIFloatingButton'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mindinventory' => 'tushar.sanchaniya@mindinventory.com' }
   s.source           = { :git => 'https://github.com/TusharSanchaniya-mi/MIFloatingButton.git', :tag => s.version.to_s }
