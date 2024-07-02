@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MIFloatingButton'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Easily customizable floating button menu created with SwiftUI. with smooth animation and attractive layout design style.'
 
   s.description      = <<-DESC
